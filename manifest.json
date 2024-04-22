@@ -1,0 +1,11 @@
+{
+  "id": "prompt-mixer-deepinfra-connector",
+  "name": "Deep Infra Connector",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "description": "This connector for Prompt Mixer enables you to utilize the DeepInfra API for text generation models directly from Prompt Mixer.",
+  "author": "Prompt Mixer",
+  "authorUrl": "https://promptmixer.dev",
+  "fundingUrl": "https://promptmixer.dev/pricing",
+  "isDesktopOnly": false
+}

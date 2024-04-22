@@ -1,0 +1,30 @@
+{
+  "name": "prompt-mixer-deepinfra-connector",
+  "version": "1.0.0",
+  "description": "This connector for Prompt Mixer enables you to utilize the DeepInfra API for text generation models directly from Prompt Mixer.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json",
+    "lint": "eslint '**/*.{js,ts}' --quiet",
+    "lint:fix": "eslint '**/*.{js,ts}' --fix",
+    "format": "prettier '**/*.{js,ts}' --write",
+    "format:check": "prettier '**/*.{js,ts}' --check"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.20.2",
+    "openai": "^4.33.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  }
+}
